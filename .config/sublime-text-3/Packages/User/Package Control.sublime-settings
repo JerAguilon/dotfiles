@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Auto Semi-Colon",
+		"AutoFileName",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"Console Wrap for js",
+		"DocBlockr",
+		"Git",
+		"Javatar",
+		"jQuery",
+		"Package Control",
+		"rsub",
+		"SummitLinter",
+		"Terminal",
+		"VAlign",
+		"Vintageous"
+	]
+}

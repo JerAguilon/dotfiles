@@ -1,0 +1,15 @@
+{
+	"alignment_chars":
+	[
+		"=",
+		":"
+	],
+	"color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
+	"font_size": 9,
+	"ignored_packages":
+	[
+		"Console Wrap for js"
+	],
+	"theme": "Brogrammer.sublime-theme",
+	"vintage_start_in_command_mode": true
+}
