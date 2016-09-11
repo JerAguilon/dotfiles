@@ -1,12 +1,14 @@
 {
 	"folder_history":
 	[
+		"/home/jeremy/Downloads/Personal-Website-master",
+		"/media/jeremy/Media/Documents/GitHub/PersonalWebsite",
 		"/media/jeremy/Media/Documents/GitHub/cs2110",
 		"/home/jeremy/Desktop/Pokemon",
 		"/media/jeremy/Media/Documents/GitHub/GoogleFoobarSolutions"
 	],
 	"last_version": 3114,
-	"last_window_id": 2,
+	"last_window_id": 4,
 	"log_indexing": false,
 	"settings":
 	{
@@ -79,17 +81,26 @@
 			},
 			"file_history":
 			[
+				"/home/jeremy/.i3/config",
+				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW2Operations.java",
+				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW02.pdf",
+				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW2Bases.java",
+				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW2BitVector.java",
+				"/home/jeremy/Desktop/Solution.java",
+				"/home/jeremy/Desktop/challenge.txt",
+				"/home/jeremy/Desktop/Pokemon/Pokedex.java",
+				"/home/jeremy/Desktop/Pokemon/Pokemon.java",
 				"/media/jeremy/Media/Documents/GitHub/GoogleFoobarSolutions/src/Level 5/DontMindTheMap/DontMindTheMap.java",
 				"/media/jeremy/Media/Documents/GitHub/GoogleFoobarSolutions/src/Level 5/DontMindTheMap/readme.txt",
 				"/home/jeremy/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
 			],
 			"find":
 			{
-				"height": 22.0
+				"height": 38.0
 			},
 			"find_in_files":
 			{
-				"height": 0.0,
+				"height": 104.0,
 				"where_history":
 				[
 				]
@@ -99,6 +110,13 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"collapse",
+					"bar",
+					"powerof2",
+					"conditiona",
+					"unsigned",
+					"conditional",
+					"sort()",
 					"system.out",
 					"system.out.",
 					"system.out",
@@ -129,7 +147,7 @@
 			"menu_visible": true,
 			"output.exec":
 			{
-				"height": 169.0
+				"height": 22.0
 			},
 			"output.find_results":
 			{
@@ -172,7 +190,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 96.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -191,14 +209,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW2Operations.java",
-					"settings":
-					{
-						"buffer_size": 7723,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -261,13 +271,14 @@
 			},
 			"expanded_folders":
 			[
-				"/media/jeremy/Media/Documents/GitHub/cs2110",
-				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02"
+				"/home/jeremy/Downloads/Personal-Website-master"
 			],
 			"file_history":
 			[
-				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW02.pdf",
+				"/home/jeremy/Downloads/Personal-Website-master/index.html",
+				"/home/jeremy/.i3/config",
 				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW2Operations.java",
+				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW02.pdf",
 				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW2Bases.java",
 				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW2BitVector.java",
 				"/home/jeremy/Desktop/Solution.java",
@@ -294,6 +305,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"collapse",
+					"bar",
 					"powerof2",
 					"conditiona",
 					"unsigned",
@@ -321,148 +334,14 @@
 			"folders":
 			[
 				{
-					"path": "/media/jeremy/Media/Documents/GitHub/cs2110"
+					"path": "/home/jeremy/Downloads/Personal-Website-master"
 				}
 			],
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW2Operations.java",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 7723,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										6637,
-										6637
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-											"1":
-											[
-												6703,
-												6704
-											]
-										},
-										"icon":
-										{
-											"1":
-											[
-												"Packages/BracketHighlighter/icons/curly_bracket.png",
-												"brackethighlighter.default"
-											]
-										},
-										"open":
-										{
-											"1":
-											[
-												6633,
-												6634
-											]
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content"
-									],
-									"syntax": "Packages/Java/Java.sublime-syntax",
-									"translate_tabs_to_spaces": false,
-									"vintage":
-									{
-										"_vintageous_glue_until_normal_mode": false,
-										"action": null,
-										"action_count": "",
-										"mode": "mode_normal",
-										"motion": null,
-										"motion_count": "",
-										"must_capture_register_name": false,
-										"normal_insert_count": "1",
-										"partial_sequence": "",
-										"register": "\"",
-										"sequence": "",
-										"xpos": 8
-									}
-								},
-								"translation.x": 0.0,
-								"translation.y": 2142.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -506,7 +385,246 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,66,24,1026,1052,1920,1080",
+			"position": "0,0,0,0,0,485,35,955,1028,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 40.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+				"vintage":
+				{
+				}
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 96.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 4,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Java/Ant.sublime-build",
+							""
+						],
+						[
+							"Packages/Java/JavaC.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						]
+					],
+					[
+						"Packages/Java/JavaC.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 360.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 485.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/media/jeremy/Media/Documents/GitHub/PersonalWebsite"
+			],
+			"file_history":
+			[
+				"/media/jeremy/Media/Documents/GitHub/PersonalWebsite/index.html",
+				"/media/jeremy/Media/Documents/GitHub/PersonalWebsite/style.css",
+				"/home/jeremy/.i3/config",
+				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW2Operations.java",
+				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW02.pdf",
+				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW2Bases.java",
+				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW2BitVector.java",
+				"/home/jeremy/Desktop/Solution.java",
+				"/home/jeremy/Desktop/challenge.txt",
+				"/home/jeremy/Desktop/Pokemon/Pokedex.java",
+				"/home/jeremy/Desktop/Pokemon/Pokemon.java",
+				"/media/jeremy/Media/Documents/GitHub/GoogleFoobarSolutions/src/Level 5/DontMindTheMap/DontMindTheMap.java",
+				"/media/jeremy/Media/Documents/GitHub/GoogleFoobarSolutions/src/Level 5/DontMindTheMap/readme.txt",
+				"/home/jeremy/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 104.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"collapse",
+					"bar",
+					"powerof2",
+					"conditiona",
+					"unsigned",
+					"conditional",
+					"sort()",
+					"system.out",
+					"system.out.",
+					"system.out",
+					"system",
+					"system.out"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/media/jeremy/Media/Documents/GitHub/PersonalWebsite"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 22.0
+			},
+			"input":
+			{
+				"height": 36.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 22.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,1445,35,1885,1028,1920,1080",
 			"project": "",
 			"replace":
 			{
@@ -553,12 +671,12 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 96.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 2,
+			"window_id": 3,
 			"workspace_name": ""
 		}
 	],

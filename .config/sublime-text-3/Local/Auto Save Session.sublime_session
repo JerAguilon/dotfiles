@@ -1,12 +1,14 @@
 {
 	"folder_history":
 	[
+		"/home/jeremy/Downloads/Personal-Website-master",
+		"/media/jeremy/Media/Documents/GitHub/PersonalWebsite",
 		"/media/jeremy/Media/Documents/GitHub/cs2110",
 		"/home/jeremy/Desktop/Pokemon",
 		"/media/jeremy/Media/Documents/GitHub/GoogleFoobarSolutions"
 	],
 	"last_version": 3114,
-	"last_window_id": 2,
+	"last_window_id": 4,
 	"log_indexing": false,
 	"settings":
 	{
@@ -79,17 +81,27 @@
 			},
 			"file_history":
 			[
+				"/home/jeremy/Downloads/Personal-Website-master/index.html",
+				"/home/jeremy/.i3/config",
+				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW2Operations.java",
+				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW02.pdf",
+				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW2Bases.java",
+				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW2BitVector.java",
+				"/home/jeremy/Desktop/Solution.java",
+				"/home/jeremy/Desktop/challenge.txt",
+				"/home/jeremy/Desktop/Pokemon/Pokedex.java",
+				"/home/jeremy/Desktop/Pokemon/Pokemon.java",
 				"/media/jeremy/Media/Documents/GitHub/GoogleFoobarSolutions/src/Level 5/DontMindTheMap/DontMindTheMap.java",
 				"/media/jeremy/Media/Documents/GitHub/GoogleFoobarSolutions/src/Level 5/DontMindTheMap/readme.txt",
 				"/home/jeremy/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
 			],
 			"find":
 			{
-				"height": 22.0
+				"height": 38.0
 			},
 			"find_in_files":
 			{
-				"height": 0.0,
+				"height": 104.0,
 				"where_history":
 				[
 				]
@@ -99,6 +111,13 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"collapse",
+					"bar",
+					"powerof2",
+					"conditiona",
+					"unsigned",
+					"conditional",
+					"sort()",
 					"system.out",
 					"system.out.",
 					"system.out",
@@ -129,7 +148,7 @@
 			"menu_visible": true,
 			"output.exec":
 			{
-				"height": 169.0
+				"height": 22.0
 			},
 			"output.find_results":
 			{
@@ -172,7 +191,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 96.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -192,13 +211,18 @@
 			"buffers":
 			[
 				{
-					"contents": "# i3 config file (v4)\n#\n# Please see http://i3wm.org/docs/userguide.html for a complete reference!\n#\n# This config file uses keycodes (bindsym) and was written for the QWERTY\n# layout.\n#\n# To get a config file with the same key positions, but for your current\n# layout, use the i3-config-wizard\n#\n\n# Font for window titles. Will also be used by the bar unless a different font\n# is used in the bar {} block below.\nfont pango:monospace 8\n\n# This font is widely installed, provides lots of unicode glyphs, right-to-left\n# text rendering and scalability on retina/hidpi displays (thanks to pango).\n#font pango:DejaVu Sans Mono 8\n\n# Before i3 v4.8, we used to recommend this one as the default:\n# font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1\n# The font above is very space-efficient, that is, it looks good, sharp and\n# clear in small sizes. However, its unicode glyph coverage is limited, the old\n# X core fonts rendering does not support right-to-left and this being a bitmap\n# font, it doesn’t scale on retina/hidpi displays.\n\n# use these keys for focus, movement, and resize directions when reaching for\n# the arrows is not convenient\nset $up i\nset $down k\nset $left j\nset $right l\n\n# use Mouse+Mod1 to drag floating windows to their wanted position\nfloating_modifier Mod1\n\n# start a terminal\nbindsym Mod1+Return exec i3-sensible-terminal\n\n# kill focused window\nbindsym Mod1+Shift+q kill\n\n# start dmenu (a program launcher)\nbindsym Mod1+d exec dmenu_run\n# There also is the (new) i3-dmenu-desktop which only displays applications\n# shipping a .desktop file. It is a wrapper around dmenu, so you need that\n# installed.\n# bindsym Mod1+d exec --no-startup-id i3-dmenu-desktop\n\n# change focus\nbindsym Mod1+$left focus left\nbindsym Mod1+$down focus down\nbindsym Mod1+$up focus up\nbindsym Mod1+$right focus right\n\n# alternatively, you can use the cursor keys:\nbindsym Mod1+Left focus left\nbindsym Mod1+Down focus down\nbindsym Mod1+Up focus up\nbindsym Mod1+Right focus right\n\n# move focused window\nbindsym Mod1+Shift+$left move left\nbindsym Mod1+Shift+$down move down\nbindsym Mod1+Shift+$up move up\nbindsym Mod1+Shift+$right move right\n\n# alternatively, you can use the cursor keys:\nbindsym Mod1+Shift+Left move left\nbindsym Mod1+Shift+Down move down\nbindsym Mod1+Shift+Up move up\nbindsym Mod1+Shift+Right move right\n\n# split in horizontal orientation\nbindsym Mod1+h split h\n\n# split in vertical orientation\nbindsym Mod1+v split v\n\n# enter fullscreen mode for the focused container\nbindsym Mod1+f fullscreen toggle\n\n# change container layout (stacked, tabbed, toggle split)\nbindsym Mod1+s layout stacking\nbindsym Mod1+w layout tabbed\nbindsym Mod1+e layout toggle split\n\n# toggle tiling / floating\nbindsym Mod1+Shift+space floating toggle\n\n# change focus between tiling / floating windows\nbindsym Mod1+space focus mode_toggle\n\n# focus the parent container\nbindsym Mod1+a focus parent\n\n# focus the child container\n#bindsym Mod1+d focus child\n\n# move the currently focused window to the scratchpad\nbindsym Mod1+Shift+minus move scratchpad\n\n# Show the next scratchpad window or hide the focused scratchpad window.\n# If there are multiple scratchpad windows, this command cycles through them.\nbindsym Mod1+minus scratchpad show\n\n# switch to workspace\nbindsym Mod1+1 workspace 1\nbindsym Mod1+2 workspace 2\nbindsym Mod1+3 workspace 3\nbindsym Mod1+4 workspace 4\nbindsym Mod1+5 workspace 5\nbindsym Mod1+6 workspace 6\nbindsym Mod1+7 workspace 7\nbindsym Mod1+8 workspace 8\nbindsym Mod1+9 workspace 9\nbindsym Mod1+0 workspace 10\n\n# move focused container to workspace\nbindsym Mod1+Shift+1 move container to workspace 1\nbindsym Mod1+Shift+2 move container to workspace 2\nbindsym Mod1+Shift+3 move container to workspace 3\nbindsym Mod1+Shift+4 move container to workspace 4\nbindsym Mod1+Shift+5 move container to workspace 5\nbindsym Mod1+Shift+6 move container to workspace 6\nbindsym Mod1+Shift+7 move container to workspace 7\nbindsym Mod1+Shift+8 move container to workspace 8\nbindsym Mod1+Shift+9 move container to workspace 9\nbindsym Mod1+Shift+0 move container to workspace 10\n\n# reload the configuration file\nbindsym Mod1+Shift+c reload\n# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)\nbindsym Mod1+Shift+r restart\n# exit i3 (logs you out of your X session)\nbindsym Mod1+Shift+e exec \"i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'\"\n\n# resize window (you can also use the mouse for that)\nmode \"resize\" {\n        # These bindings trigger as soon as you enter the resize mode\n\n        # Pressing left will shrink the window’s width.\n        # Pressing right will grow the window’s width.\n        # Pressing up will shrink the window’s height.\n        # Pressing down will grow the window’s height.\n        bindsym $left       resize shrink width 10 px or 10 ppt\n        bindsym $down       resize grow height 10 px or 10 ppt\n        bindsym $up         resize shrink height 10 px or 10 ppt\n        bindsym $right      resize grow width 10 px or 10 ppt\n\n        # same bindings, but for the arrow keys\n        bindsym Left        resize shrink width 10 px or 10 ppt\n        bindsym Down        resize grow height 10 px or 10 ppt\n        bindsym Up          resize shrink height 10 px or 10 ppt\n        bindsym Right       resize grow width 10 px or 10 ppt\n\n        # back to normal: Enter or Escape\n        bindsym Return mode \"default\"\n        bindsym Escape mode \"default\"\n}\n\nbindsym Mod1+r mode \"resize\"\n\ngaps inner 2R\ngaps outer 25\n\n# Start i3bar to display a workspace bar (plus the system information i3status\n# finds out, if available)\nbar {\n        status_command i3status\n}\n\n#######################################################################\n# automatically start i3-config-wizard to offer the user to create a\n# keysym-based config which used their favorite modifier (alt or windows)\n#\n# i3-config-wizard will not launch if there already is a config file\n# in ~/.i3/config.\n#\n# Please remove the following exec line:\n#######################################################################\nexec i3-config-wizard\n",
-					"file": "/home/jeremy/.i3/config",
-					"file_size": 6169,
-					"file_write_time": 131178771343085732,
+					"file": "/media/jeremy/Media/Documents/GitHub/PersonalWebsite/index.html",
 					"settings":
 					{
-						"buffer_size": 6159,
+						"buffer_size": 4567,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/media/jeremy/Media/Documents/GitHub/PersonalWebsite/style.css",
+					"settings":
+					{
+						"buffer_size": 5390,
 						"line_ending": "Unix"
 					}
 				}
@@ -264,10 +288,14 @@
 			},
 			"expanded_folders":
 			[
-				"/media/jeremy/Media/Documents/GitHub/cs2110"
+				"/media/jeremy/Media/Documents/GitHub/PersonalWebsite",
+				"/media/jeremy/Media/Documents/GitHub/PersonalWebsite/images"
 			],
 			"file_history":
 			[
+				"/media/jeremy/Media/Documents/GitHub/PersonalWebsite/index.html",
+				"/media/jeremy/Media/Documents/GitHub/PersonalWebsite/style.css",
+				"/home/jeremy/.i3/config",
 				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW2Operations.java",
 				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW02.pdf",
 				"/media/jeremy/Media/Documents/GitHub/cs2110/HW02/HW2Bases.java",
@@ -296,6 +324,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"collapse",
 					"bar",
 					"powerof2",
 					"conditiona",
@@ -324,30 +353,30 @@
 			"folders":
 			[
 				{
-					"path": "/media/jeremy/Media/Documents/GitHub/cs2110"
+					"path": "/media/jeremy/Media/Documents/GitHub/PersonalWebsite"
 				}
 			],
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/jeremy/.i3/config",
+							"file": "/media/jeremy/Media/Documents/GitHub/PersonalWebsite/index.html",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 6159,
+								"buffer_size": 4567,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										5554,
-										5554
+										2164,
+										2164
 									]
 								],
 								"settings":
@@ -370,21 +399,26 @@
 									},
 									"bracket_highlighter.regions":
 									[
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
 										"bh_c_define",
 										"bh_c_define_center",
 										"bh_c_define_open",
 										"bh_c_define_close",
 										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
 										"bh_double_quote",
 										"bh_double_quote_center",
 										"bh_double_quote_open",
@@ -400,11 +434,11 @@
 										"bh_square_open",
 										"bh_square_close",
 										"bh_square_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
 										"bh_round",
 										"bh_round_center",
 										"bh_round_open",
@@ -415,23 +449,18 @@
 										"bh_tag_open",
 										"bh_tag_close",
 										"bh_tag_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content"
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
 									],
-									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"color_scheme": "Packages/User/Color Highlighter/themes/brogrammer.tmTheme",
+									"syntax": "Packages/HTML/HTML.sublime-syntax",
+									"translate_tabs_to_spaces": false,
 									"vintage":
 									{
 										"_vintageous_glue_until_normal_mode": false,
-										"_vintageous_non_interactive": false,
-										"_vintageous_processing_notation": false,
 										"action": null,
 										"action_count": "",
 										"mode": "mode_normal",
@@ -442,11 +471,146 @@
 										"partial_sequence": "",
 										"register": "\"",
 										"sequence": "",
-										"xpos": 13
+										"xpos": 37
 									}
 								},
 								"translation.x": 0.0,
-								"translation.y": 2087.0,
+								"translation.y": 812.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/media/jeremy/Media/Documents/GitHub/PersonalWebsite/style.css",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5390,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										653,
+										653
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+											"1":
+											[
+												651,
+												652
+											]
+										},
+										"icon":
+										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/curly_bracket.png",
+												"brackethighlighter.default"
+											]
+										},
+										"open":
+										{
+											"1":
+											[
+												621,
+												622
+											]
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
+									],
+									"color_scheme": "Packages/User/Color Highlighter/themes/brogrammer.tmTheme",
+									"syntax": "Packages/CSS/CSS.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": true,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_insert",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 21
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -495,7 +659,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,49,378,933,1010,1920,1080",
+			"position": "0,0,0,0,0,35,35,1339,1026,1920,1080",
 			"project": "",
 			"replace":
 			{
@@ -535,19 +699,19 @@
 				"_vintageous_reset_during_init": true,
 				"vintage":
 				{
-					"_cmdline_cd": "/home/jeremy/.i3"
+					"_cmdline_cd": "/opt/sublime_text"
 				}
 			},
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 96.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 2,
+			"window_id": 3,
 			"workspace_name": ""
 		}
 	],
